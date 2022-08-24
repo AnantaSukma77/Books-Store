@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 15px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+header span {
+    font-size: 32px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.form {
+    width: 280px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.form p {
+    font-size: 28px;
+    margin: 15px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.form label {
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+}
+
+input[type=text] {
+    height: 30px;
+    width: 240px;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+input[type=password] {
+    height: 30px;
+    width: 240px;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+button {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}

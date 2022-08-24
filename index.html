@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=d, initial-scale=1.0" />
+    <title>Nanta Store</title>
+    <link rel="stylesheet" href="/asset/css/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Rubik+Distressed&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3202a91299.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="left-bar">
+        <span class="logo">Nanta Store</span>
+      </div>
+      <div class="right-bar">
+        <div class="btn-ker-bel">
+          <button class="cart-belanja"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="loginBtnContainer">
+          <a href="./login.html"><button>Login</button></a>
+        </div>
+        <div class="shopping-cart-container">
+          <div class="tittle">Keranjang belanja</div>
+          <div class="books">
+            <div class="buku">
+              <div class="left">
+                <div class="img"></div>
+              </div>
+              <div class="right">
+                <div class="author">Penulis</div>
+                <div class="book-tittle">judul</div>
+                <div class="price">harga</div>
+                <div class="add-to-cart">
+                  <i class="fas fa-cart-plus"></i>
+                  <button class="btn-plus"><i class="fas fa-plus"></i></button>
+                  <input class="masukan" type="text" value="1" />
+                  <button class="btn-minus"><i class="fas fa-minus"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkout-container">
+            <p>Total:</p>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="books-cat">
+      <p class="title">Daftar buku</p>
+      <div class="books">
+        <!-- <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button class="btn-plus"><i class="fas fa-plus"></i></button>
+                    <input class="masukan" type="text" value="1">
+                    <button class="btn-minus"><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button class="btn-plus"><i class="fas fa-plus"></i></button>
+                    <input class="masukan" type="text" value="1">
+                    <button class="btn-minus"><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="book">
+                <div class="img"><img src=""></div>
+                <div class="author">nama</div>
+                <div class="book-title">judul</div>
+                <div class="price">$45</div>
+                <div class="add-to-cart">
+                    <i class="fas fa-cart-plus"></i>
+                    <button><i class="fas fa-plus"></i></button>
+                    <input type="text" value="1">
+                    <button><i class="fas fa-minus"></i></button>
+                </div>
+            </div> -->
+      </div>
+    </section>
+    <footer>Copyright @2022</footer>
+    <!-- Javascript index secara umum -->
+    <script src="/asset/js/index.js"></script>
+    <!-- Dummy Checkout -->
+    <script src="/asset/js/checkout.js"></script>
+    <!-- Sembunyikan dan memunculkan keranjang belanja -->
+    <script src="/asset/js/hide.js"></script>
+    <!-- Menambah dan mengurangi jumlah buku di keranjang belanja -->
+    <script src="/asset/js/plusAndMinusBook.js"></script>
+    <!-- Fitur Login dan Logout  -->
+    <script src="/asset/js/login-logout.js"></script>
+  </body>
+</html>
